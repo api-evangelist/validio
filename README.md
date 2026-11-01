@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Validio is a company surfaced via the API Evangelist harvest backlog (source: stockholm-trip) and added to the network as a stub for full-pipeline profiling.
-- https://validio.io/
+Validio provides an agentic data quality, observability, and lineage platform for enterprises. Their solution enables real‑time anomaly detection, comprehensive data lineage tracing, and AI‑driven insights across data assets. Targeting industries such as banking, manufacturing, logistics, and gaming, Validio helps organizations meet regulatory compliance while improving data reliability and operational efficiency. The platform offers modular use‑cases including data quality monitoring, business metrics monitoring, machine‑learning AI integration, and customer‑facing data products, all delivered via a cloud‑native SaaS model.
+
+**Areas:** Company · Data Quality · Observability · Data Lineage · Artificial Intelligence
+
+## Validio on APIs.io
+
+Everything profiled for Validio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/validio/](https://apis.io/providers/validio/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Validio API](https://apis.io/apis/validio/validio-api-2/) — Data quality and observability API
+- [Validio Export API](https://apis.io/apis/validio/validio-export-api/) — The Export API from Validio — 1 operation(s) for export.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Validio Webhooks](https://apis.io/asyncapis/validio/validio-webhooks/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [GetApiExportV1V1IdResponse](https://apis.io/schemas/validio/validio-get-api-export-v1-v1-id-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Validio Context](https://apis.io/jsonld/validio/validio-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Validio API Rules](https://apis.io/rules/validio/validio-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Validio Domain Security](https://apis.io/security/validio/validio-domain-security/)
+- [Validio Trust Center](https://apis.io/security/validio/validio-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://validio.io/)
+- [Documentation](https://docs.validio.io/)
+- [Getting started](https://docs.validio.io/docs/what-is-validio)
+- [API reference](https://docs.validio.io/docs/validio-api)
+- [Pricing](https://validio.io/pricing)
+- [Changelog](https://docs.validio.io/changelog)
+- [Blog](https://validio.io/blog)
+- [Security](https://validio.io/security)
+- [Compliance](https://validio.io/security)
+- [Terms of service](https://validio.io/terms-of-use)
+- [Privacy policy](https://validio.io/privacy-policy)
+- [Status](https://validio.io/status)
+
+## API Evangelist rating
+
+**Kin Score 44.1** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 26.9 |
+| Contract governance | 35.6 |
+| Operational transparency | 50.0 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 47.4 |
+
+**Agent readiness 22.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | na |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 21.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/validio/](https://apis.io/providers/validio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Validio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/validio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
